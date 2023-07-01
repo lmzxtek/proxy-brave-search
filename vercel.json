@@ -1,6 +1,5 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "https://search.brave.com/$1"},
-        {"source": "/api/(.*)","destination": "/api/proxy"}
+        {"source": "/(.*)", "destination": "https://search.brave.com/$1"}
     ]
 }
